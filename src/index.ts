@@ -15,6 +15,9 @@ const agent = new SolanaAgentKit(
 const mcp_actions = {
     GET_ASSET: ACTIONS.GET_ASSET_ACTION,
     DEPLOY_TOKEN: ACTIONS.DEPLOY_TOKEN_ACTION,
+    FETCH_PRICE: ACTIONS.FETCH_PRICE_ACTION,
+    GET_ALL_TOPICS: ACTIONS.GET_ALL_TOPICS_ACTION,
+    GET_PRICE_INFERENCE: ACTIONS.GET_PRICE_INFERENCE_ACTION
 }
 
-startMcpServer(mcp_actions, agent, { name: "solana-agent", version: "0.0.1" });
+startMcpServer(mcp_actions, agent, { name: "quant72-agent", version: "0.1.0" });
