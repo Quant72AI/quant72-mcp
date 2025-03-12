@@ -20,4 +20,4 @@ const mcp_actions = {
     GET_PRICE_INFERENCE: ACTIONS.GET_PRICE_INFERENCE_ACTION
 }
 
-startMcpServer(mcp_actions, agent, { name: "quant72-agent", version: "0.1.0" });
+startMcpServer(mcp_actions, agent, { name: "quant72-mcp", version: "0.1.0" });
